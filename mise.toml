@@ -1,0 +1,6 @@
+[settings]
+idiomatic_version_file_enable_tools = ["rust"]
+task.run_auto_install = false
+
+[tools]
+cargo-dist = "0.32.0"
