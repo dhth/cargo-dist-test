@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world! (v0.1.7)");
+    println!("Hello, world! (v0.1.8)");
 }
