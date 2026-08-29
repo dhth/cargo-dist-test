@@ -2,5 +2,9 @@
 idiomatic_version_file_enable_tools = ["rust"]
 task.run_auto_install = false
 
+[tool_alias]
+cargo-dist-test-release = "github:dhth/cargo-dist-test"
+
 [tools]
 cargo-dist = "0.32.0"
+cargo-dist-test-release= "v0.1.8"

@@ -49,6 +49,51 @@ url = "https://github.com/axodotdev/cargo-dist/releases/download/v0.32.0/cargo-d
 url_api = "https://api.github.com/repos/axodotdev/cargo-dist/releases/assets/426804467"
 provenance = "github-attestations"
 
+[[tools.cargo-dist-test-release]]
+version = "0.1.8"
+backend = "github:dhth/cargo-dist-test"
+specifiers = ["v0.1.8"]
+
+[tools.cargo-dist-test-release."platforms.linux-arm64"]
+checksum = "sha256:ed919eb57f1044d4e8dc9af7591648e55875a205effa89c9e6dcd12835a8703f"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/source.tar.gz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370725"
+
+[tools.cargo-dist-test-release."platforms.linux-arm64-musl"]
+checksum = "sha256:ed919eb57f1044d4e8dc9af7591648e55875a205effa89c9e6dcd12835a8703f"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/source.tar.gz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370725"
+
+[tools.cargo-dist-test-release."platforms.linux-x64"]
+checksum = "sha256:f06018277754104c10801a00745f9dec842a35fa6f46bef7a417b5f71c23b051"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/cargo-dist-test-x86_64-unknown-linux-gnu.tar.xz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370693"
+provenance = "github-attestations"
+
+[tools.cargo-dist-test-release."platforms.linux-x64-musl"]
+checksum = "sha256:28aa432ce13943132cbb78b66d19e6ebca664df0cf4d5ed57db08f0d0a91aba8"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/cargo-dist-test-x86_64-unknown-linux-musl.tar.xz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370714"
+provenance = "github-attestations"
+
+[tools.cargo-dist-test-release."platforms.macos-arm64"]
+checksum = "sha256:d21800fe83889b9280682c2acbdf4eda0824aa6731133ea2089934a739b0f71f"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/cargo-dist-test-aarch64-apple-darwin.tar.xz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370682"
+provenance = "github-attestations"
+provenance_verified = true
+
+[tools.cargo-dist-test-release."platforms.macos-x64"]
+checksum = "sha256:454c44dcbe801fdf1e41d767f8abc61b5af858cb7fbd6f351f2b5fea06d7e7e1"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/cargo-dist-test-x86_64-apple-darwin.tar.xz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370688"
+provenance = "github-attestations"
+
+[tools.cargo-dist-test-release."platforms.windows-x64"]
+checksum = "sha256:ed919eb57f1044d4e8dc9af7591648e55875a205effa89c9e6dcd12835a8703f"
+url = "https://github.com/dhth/cargo-dist-test/releases/download/v0.1.8/source.tar.gz"
+url_api = "https://api.github.com/repos/dhth/cargo-dist-test/releases/assets/535370725"
+
 [[tools.rust]]
 version = "1.98.0"
 backend = "core:rust"
